@@ -1,0 +1,6 @@
+{
+    "production": {
+        "s3_bucket": "lmbda",
+        "app_function": "server.app"
+    }
+}
