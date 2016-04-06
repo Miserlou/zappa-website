@@ -4747,6 +4747,17 @@ h1, h2, h3, h4, h5, h6 {
                             <h3>What frameworks are compatible with Zappa?</h3>
                             <p>Zappa works with any WSGI-compatible that works with Python 2.7. That means - pretty much all of them! Django, Flask, Pyramid, Bottle, and many others all work with Zappa.</p>
                         </div>
+
+                        <div class="box-faq to-animate-2">
+                            <h3>Isn't this just CGI? Isn't that bad?</h3>
+                            <p>CGI is inefficient, certainly, but mainly because it blocks other requests on a single machine. Because Zappa is automatically distributed across <i>n</i>-many virtual instances, there's no blocking, and since the application is called from memory, the overhead is less than 20 milliseconds.</p>
+                        </div>
+
+                        <div class="box-faq to-animate-2">
+                            <h3>Is the website I'm currently looking at powered by Zappa?</h3>
+                            <p>Yep!</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
